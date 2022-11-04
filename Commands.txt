@@ -1,0 +1,7 @@
+Git Init 			para empezar a rastrear el directorio en el que te encuentras
+rm - rf .git 		elimina el rastreo de git permanentemente
+
+Para enlazar al repositorio en GitHub:
+git config user.name "NombreUsuario_GitHub"
+git config user.email "Emailusuario_GitHub.sitio.com"
+git remote add origin "https://github.com/Enlace_repositorio_github.git"
