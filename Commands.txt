@@ -4,8 +4,8 @@ rm - rf .git 				elimina el rastreo de git permanentemente
 
 Para enlazar al repositorio en GitHub:
 
-git config user.name "NombreUsuario_GitHub"
-git config user.email "Emailusuario_GitHub.sitio.com"
+git config user.name "NombreUsuario_GitHub"	*Usar <git config --global> para establecerlo permanentemente
+git config user.email "Emailusuario_GitHub.sitio.com" *Usar <git config --global> para establecerlo permanentemente
 git remote add origin "https://github.com/Enlace_repositorio_github.git" ' define el origen del repo
 
 git status					devuelve el estado de los archivos en el dir trackeado
