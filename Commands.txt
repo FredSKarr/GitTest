@@ -1,7 +1,45 @@
-Git Init 			para empezar a rastrear el directorio en el que te encuentras
-rm - rf .git 		elimina el rastreo de git permanentemente
+Git Init 					para empezar a rastrear el directorio en el que te encuentras
+
+rm - rf .git 				elimina el rastreo de git permanentemente
 
 Para enlazar al repositorio en GitHub:
+
 git config user.name "NombreUsuario_GitHub"
 git config user.email "Emailusuario_GitHub.sitio.com"
-git remote add origin "https://github.com/Enlace_repositorio_github.git"
+git remote add origin "https://github.com/Enlace_repositorio_github.git" ' define el origen del repo
+
+git status					devuelve el estado de los archivos en el dir trackeado
+
+git add <file>				pone en espera de commit un archivo en el dir trackeado
+
+git add .					pone en espera de commit todos los archivos en el dir trackeado
+
+git rm --cached <file>			Quita de espera un archivo previamente puesto con add
+
+git commit -m "Nombre_Repo"		Agrega el o los archivos en espera a un repositorio en espera de push
+
+git push -u <tag_repositorio_Local>	Envia a Github los archivos	
+
+git clone <Url_repo_GitHub>		Clona un repo de GitHub a la carpeta en donde estemos en la consola
+
+git pull origin <breach>		Compara el repo local y el remoto y actualiza el local con los cambios
+
+git branch					devuelve las ramas que contiene el repo
+
+git branch <nombre_rama>		crea una rama a partir de la rama en la que estamos
+
+git branch -m <nombre_viejo> <nombre_nuevo>	Renombra una rama
+
+git checkout <nombre_rama>		para moverse a una rama del repo
+
+git branch -d <nombre_rama>		elimina una rama *no se puede eliminar si estas dentro de ella
+
+touch "Nombre_Archivo.ext"		crea un archivo nuevo en blanco en el directorio local
+
+git diff <rama_A> <rama_B>		compara 2 ramas y devuelve la diferencia
+
+git merge <rama_Origen> <Rama_dest>	Fusiona la rama en la que estemos con la rama origen que indiquemos
+
+
+
+			
