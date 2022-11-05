@@ -14,7 +14,7 @@ git add <file>				pone en espera de commit un archivo en el dir trackeado
 
 git add .					pone en espera de commit todos los archivos en el dir trackeado
 
-git rm --cached <file>			Quita de espera un archivo previamente puesto con add
+git rm --cached <file>			Quita de espera un archivo previamente puesto con add *agregar -r al final para directorios
 
 git commit -m <Nombre_Repo>		Agrega el o los archivos en espera a un repositorio en espera de push
 
